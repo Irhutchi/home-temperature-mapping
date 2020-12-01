@@ -5,8 +5,8 @@
 #define DS18B20 2          //DS18B20 is connected to GPIO Pin 2
 
 String apiKey = "``QL1OLWEUFU8L5USF"; //  Write API key from ThingSpeak
-const char* ssid =  "VODAFONE-9F20";     // Enter your WiFi Network's SSID
-const char* pass =  "YJSJFEF9PBMDLHMC"; // Enter your WiFi Network's Password
+const char* ssid =  "VODAFONE";     // Enter your WiFi Network's SSID
+const char* pass =  "*************"; // Enter your WiFi Network's Password
 const char* server = "api.thingspeak.com";
 float temp;
  
