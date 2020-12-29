@@ -1,12 +1,12 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>  //DS18B20 temperature library
 #include <ESP8266WiFi.h>        //To  create a webServeer declare esp8266 library
-// define pin connected to NodeMCU
+// define pin connected to EPS module
 #define DS18B20 2          //DS18B20 is connected to GPIO Pin 2
 
-String apiKey = "``QL1OLWEUFU8L5USF"; //  Write API key from ThingSpeak
-const char* ssid =  "VODAFONE";     // Enter your WiFi Network's SSID
-const char* pass =  "*************"; // Enter your WiFi Network's Password
+String apiKey = "QL1OLWEUFU8L5USF"; //  Write API key from ThingSpeak
+const char* ssid =  "eir66377622";     // Enter your WiFi Network's SSID
+const char* pass =  "NrHn4TkbcV"; // Enter your WiFi Network's Password
 const char* server = "api.thingspeak.com";
 float temp;
  
@@ -16,7 +16,7 @@ WiFiClient client;
  
 void setup() 
 {
-       Serial.begin(115200);
+       Serial.begin(115200); 
        delay(500);
        sensor.begin();
  
@@ -44,7 +44,7 @@ void loop()
  
       if (client.connect(server,80))   //   "184.106.153.149" or api.thingspeak.com
       {  
-       String sendData = apiKey+"&field1="+String(temp)+"\r\n\r\n"; 
+       String sendData = apiKey+"&field3="+String(temp)+"\r\n\r\n"; 
        
        //Serial.println(sendData);
 
@@ -67,5 +67,5 @@ void loop()
 
       Serial.println("Sending....");
   
- delay(10000);
+ delay(300000);
 }

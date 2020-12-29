@@ -1,0 +1,46 @@
+The below information is the JSON weather data of Mooncoin. 
+This is used to get the current temperature, you can find the “temp” in the JSON response.
+JSON: Data from openweatherdat.org.
+{
+	coord: {
+		lon: -7.25,
+		lat: 52.29
+},
+weather: [
+{
+	id: 801,
+	main: "Clouds",
+	description: "few clouds",
+	icon: "02n"
+}
+],
+base: "stations",
+main: {
+	temp: 275.35,
+	feels_like: 269.51,
+	temp_min: 274.82,
+	temp_max: 275.93,
+	pressure: 983,
+	humidity: 91
+},
+visibility: 10000,
+wind: {
+	speed: 5.7,
+	deg: 330
+},
+clouds: {
+	all: 20
+},
+dt: 1607029875,
+sys: {
+	type: 1,
+		id: 1556,
+		country: "IE",
+		sunrise: 1606983569,
+		sunset: 1607012328
+},
+timezone: 0,
+id: 2962540,
+name: "Mooncoin",
+cod: 200
+}
