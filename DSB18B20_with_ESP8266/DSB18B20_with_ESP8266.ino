@@ -4,9 +4,11 @@
 // define pin connected to EPS module
 #define DS18B20 2          //DS18B20 is connected to GPIO Pin 2
 
-String apiKey = "Q************F"; //  Write API key from ThingSpeak
-const char* ssid =  "VODAFONE";     // Personal WiFi Network's SSID
-const char* pass =  "************"; // Personal WiFi Network's Password
+
+String apiKey = "Q**************F"; //  Write API key from ThingSpeak
+const char* ssid =  "**********";     // Enter your WiFi Network's SSID
+const char* pass =  "***********"; // Enter your WiFi Network's Password
+
 const char* server = "api.thingspeak.com";
 float temp;
  
