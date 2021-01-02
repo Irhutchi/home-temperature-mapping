@@ -66,7 +66,7 @@ function doGet() {
   var d_heater_state = result["shared"][nestDevice]["heater_state"];
 
   //get outside data
-  var wxrequest=UrlFetchApp.fetch('http://api.openweathermap.org/data/2.5/weather?q=Mooncoin,IE&APPID=d424e125e6dc5d7cdee4d09fc99a5f7a');
+  var wxrequest=UrlFetchApp.fetch('http://api.openweathermap.org/data/2.5/weather?q=Mooncoin,IE&APPID=************************');
   var wxresult=JSON.parse(wxrequest.getContentText());
   var outside_temp = (wxresult["main"]["temp"] - 273);
   var outside_humidity = (wxresult["main"]["humidity"]);
