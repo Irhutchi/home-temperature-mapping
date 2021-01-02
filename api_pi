@@ -1,0 +1,19 @@
+import requests
+import csv
+
+# get request returns the current temp for the area linked to ThingHTTP 
+#print(response.text)
+#print(response.status_code)
+
+url='https://api.thingspeak.com/apps/thinghttp/send_request?api_key=3P5988DHYB833FBP'
+
+## API Call to retrieve data
+response = requests.get(url)
+
+## API Result
+data = response.text
+
+## Write API Results to CSV
+with open(C:/mnt/c/dev/Networks
+
+
