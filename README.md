@@ -90,6 +90,11 @@ ThingSpeak Channels.
 
 ![](https://github.com/Irhutchi/home-temperature-mapping/blob/main/imgs/Twitter_Feed.png)
 
+* [IFTTT](https://ifttt.com/home) -  is an external web service that lets you create applets that act in response to a trigger action. It is used with React app to Trigger an HTTP request to IFTTT in ThingHTTP. Using MATLAB, notifications are generated from ThingSpeak channel activity. In this project when the temperature inside drops below 16 degrees celcius and outside is equal to or less than 5 degreews celcius I will receive an email notifying me that the its cold. 
+
+
+![](https://github.com/Irhutchi/home-temperature-mapping/blob/main/imgs/IFTTT%20Webhooks.JPG)
+
 
 ## Author
 
