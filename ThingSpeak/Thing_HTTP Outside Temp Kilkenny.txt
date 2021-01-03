@@ -1,0 +1,15 @@
+
+Name:	Outside Temp Kilkenny
+API Key:	3**********P
+
+URL:	https://weather.com/weather/today/l/52.30,-7.25?par=google&temp=c
+HTTP Auth Username:	
+HTTP Auth Password:	
+Method:	GET
+Content Type:	
+HTTP Version:	1.1
+Host:	
+Headers:
+Body:	
+Parse String:	//*[@id="WxuCurrentConditions-main-b3094163-ef75-4558-8d9a-e35e6b9b1034"]/div/section/div/div[2]/div[1]/span
+Created:	2020-12-27 7:09 pm

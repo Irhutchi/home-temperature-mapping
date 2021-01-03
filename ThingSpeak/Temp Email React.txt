@@ -1,0 +1,10 @@
+
+Name:	Temp email Reaction
+Condition Type:	Numeric
+Test Frequency:	On data insertion
+Last Ran:	2021-01-02 17:17
+Channel:	WiFi Low Power Temp Monitor
+Condition:	Field 1 (Ground Floor Temp) is less than or equal to 16
+ThingHTTP:	IFTTT Request
+Run:	Only the first time the condition is met
+Created:	2021-01-02 4:39 pm

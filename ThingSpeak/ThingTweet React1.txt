@@ -1,0 +1,10 @@
+
+Name:	Gnd Floor Temp React
+Condition Type:	Numeric
+Test Frequency:	On data insertion
+Last Ran:	2021-01-02 18:33
+Channel:	WiFi Low Power Temp Monitor
+Condition:	Field 1 (Ground Floor Temp) is less than 17
+ThingTweet:	Ian47611492: House too cold, turn on heating
+Run:	Only the first time the condition is met
+Created:	2020-12-14 9:36 pm

@@ -1,0 +1,14 @@
+Name:	IFTTT Request Field 1
+API Key:	C*************N
+
+URL:	https://maker.ifttt.com/trigger/TempData/with/key/dk************j1aGL--If
+HTTP Auth Username:	
+HTTP Auth Password:	
+Method:	GET
+Content Type:	
+HTTP Version:	1.1
+Host:	
+Headers:
+Body:	
+Parse String:	
+Created:	2021-01-02 4:33 pm

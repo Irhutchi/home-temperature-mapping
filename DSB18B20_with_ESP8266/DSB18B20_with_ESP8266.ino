@@ -1,26 +1,25 @@
-#include <OneWire.h>
-#include <DallasTemperature.h>  //DS18B20 temperature library
-#include <ESP8266WiFi.h>        //To  create a webServeer declare esp8266 library
-// define pin connected to EPS module
-#define DS18B20 2          //DS18B20 is connected to GPIO Pin 2
+#include <OneWire.h>				  // Import OneWire library
+#include <DallasTemperature.h>  // DS18B20 temperature library
+#include <ESP8266WiFi.h>        // To  create a webServeer declare esp8266 library
+#define DS18B20 2          	  // DS18B20 is connected to GPIO Pin 2
 
 
-String apiKey = "Q**************F"; //  Write API key from ThingSpeak
-const char* ssid =  "**********";     // Enter your WiFi Network's SSID
-const char* pass =  "***********"; // Enter your WiFi Network's Password
+String apiKey = "Q**************F"; 	// Write API key from ThingSpeak
+const char* ssid =  "**********";     	// Enter your WiFi Network's SSID
+const char* pass =  "***********"; 		// Enter your WiFi Network's Password
 
 const char* server = "api.thingspeak.com";
 float temp;
  
 OneWire ourWire(DS18B20);
-DallasTemperature sensor(&ourWire);
+DallasTemperature sensor(&ourWire);  // Setup a oneWire instance to communicate with temp sensor 
 WiFiClient client;
  
 void setup() 
 {
-       Serial.begin(115200); 
-       delay(500);
-       sensor.begin();
+       Serial.begin(115200); 		// Start serial port, baud rate 115200 
+       delay(500);					// delay 500ms 
+       sensor.begin();				// start up the library
  
        Serial.print("Connecting to: ");
        Serial.println(ssid);

@@ -1,0 +1,10 @@
+
+Name:	Outside Temp Warning
+Condition Type:	Numeric
+Test Frequency:	On data insertion
+Last Ran:	2021-01-02 23:48
+Channel:	Current outside Temp
+Condition:	Field 1 (Temp) is less than 6
+ThingTweet:	Ian47611492: It's cold outside, don't forget your coat!.
+Run:	Only the first time the condition is met
+Created:	2021-01-02 2:30 pm
