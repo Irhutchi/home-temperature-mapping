@@ -44,8 +44,6 @@ Make sure you have the latest version of the Arduino IDE installed in your compu
     * Sign up for new User Account – https://thingspeak.com/users/sign_up
     * Create a new Channel by selecting Channels, My Channels, and then New Channel
     * Note the Write API Key and Channel ID
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Installing ESP8266 Add-on in Arduino IDE
 To install the ESP8266 board in your Arduino IDE, follow these next instructions:
