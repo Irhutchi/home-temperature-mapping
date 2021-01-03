@@ -1,4 +1,4 @@
-% Template MATLAB code for visualizing data from a channel as a 2D line
+%  MATLAB code for visualizing data from a channel as a 2D line
 % plot using PLOT function.
 
 % Channel ID to read data from

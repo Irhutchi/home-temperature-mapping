@@ -1,0 +1,15 @@
+
+Name:	IFTTT Notification for outside Temp
+API Key:	2**********Y
+
+URL:	https://maker.ifttt.com/trigger/Its_very_cold_outside/with/key/d**********1aGL--If
+HTTP Auth Username:	
+HTTP Auth Password:	
+Method:	GET
+Content Type:	
+HTTP Version:	1.1
+Host:	
+Headers:
+Body:	
+Parse String:	
+Created:	2021-01-03 5:51 pm
