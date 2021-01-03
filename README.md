@@ -52,8 +52,6 @@ To install the ESP8266 board in your Arduino IDE, follow these next instructions
   3. Open the Boards Manager. Go to Tools > Board > Boards Manager…
   4. Search for ESP8266 and press install button for the “ESP8266 by ESP8266 Community“.
   5. That’s it. It should be installed after a few seconds.
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Uploading a Sketch to the ESP-01
 The following table shows the connections you need to make between the ESP8266 and the USB to TTL programmer.
