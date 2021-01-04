@@ -1,5 +1,5 @@
 % URL of the page to read data from
-url = 'http://api.openweathermap.org/data/2.5/weather?lat=52.29&lon=-7.25&appid=d424e125e6dc5d7cdee4d09fc99a5f7a&units=metric';
+url = 'http://api.openweathermap.org/data/2.5/weather?lat=52.29&lon=-7.25&appid=***API_KEY***a&units=metric';
 % Target string to search in the API
 targetString = 'temp';
 
