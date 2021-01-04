@@ -7,7 +7,24 @@ This form part of my submission for Computer Systems Assignment - WIT
 This project uploads DS18b20 temperature sensor data to ThingSpeak from ESP8266-01 modules programmed using aduino IDE.
 Three DS18B20 sensors in total, two indisde the building and one outside. The temperature readings are displayed in Celsius and 
 update every 5minutes.
-Temperature data was scraped from openweathermap.org using MATLAB code for reading numeric data (temperature) and saved to ThingSpeak.
+Temperature data is scraped from openweathermap.org using MATLAB code for reading numeric data (temperature) and saved to ThingSpeak. The openweathermap.org provides the weather data in josn format. From that I target the temp string in particular and use that along with the API url to pull data to ThingSpeak dashboard.
+```
+JSON Snippet
+{
+"coord": {},
+"weather": [],
+"base": "stations",
+"main": {
+   "temp": 3.28,
+   "feels_like": -1.4,
+   "temp_min": 2.78,
+   "temp_max": 3.89,
+   "pressure": 1026,
+   "humidity": 86
+   }
+}
+``` 
+
 All Temperature readings provide data relating to internal and external temperatures around my home. 
 ThingSpeak and MATLAB are primarily used to acquire, analyse, and visualise IoT sensor data. <br>
 
@@ -31,7 +48,7 @@ work in progress.
 * 3x DS18b20 Temp Sensors
 * 3x Solderless breadboards
 * 3x 100uf Capacitors
-* 3x 10k Resistors
+* 3x 4k7ohm Resistors
 * Jumper wires
 * USB to UART Bridge controller
 * 3v Power supply
@@ -74,7 +91,7 @@ Each one was modified to suits my needs for this project and accomplish tasks su
 * **JavaScript** - Used in creating the NESTScript (WIP).
 
 
-## Iot Platform Used
+## Iot Platforms Used
 * [ThingSpeak](https://thingspeak.com) - ThingSpeak provides instant visualizations of data posted by both by Dallas Temperature sensors and
 public webAPI data to ThingSpeak. With the ability to execute MATLAB® code in ThingSpeak you can perform online analysis and processing of the data as it comes in. 
 ThingSpeak is often used for prototyping and proof of concept IoT systems that require analytics.
@@ -105,8 +122,6 @@ ThingSpeak Channels.
 This project is licensed under the MIT  License - see the LICENSE.md file for details
 
 ## Credits and Resources
-MATLAB for Data Processing and Visualization
-Inspiration, code snippets, etc.
 * [Youtube Clip - ESP8266](https://www.youtube.com/watch?v=P8Z-ZHwNeNI&t=254s&ab_channel=electronicGURU)
 * [ESP8266 Getting Started](https://lastminuteengineers.com/multiple-ds18b20-esp8266-nodemcu-tutorial/)
 * [DS18b20 Arduino Library](https://github.com/milesburton/Arduino-Temperature-Control-Library)
