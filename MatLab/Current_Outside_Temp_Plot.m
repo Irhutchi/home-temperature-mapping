@@ -1,4 +1,4 @@
-% Plot URL: https://thingspeak.com/apps/matlab_visualizations/384400
+% Plot URL: https://thingspeak.com/apps/matlab_visualizations/1275713
 
 % Plot of outside Temperature with relevant channel variables.
 ;
