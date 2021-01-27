@@ -5,9 +5,9 @@ This form part of my submission for Computer Systems Assignment - WIT
 ## Description
 
 This project uploads DS18b20 temperature sensor data to ThingSpeak from ESP8266-01 modules programmed using aduino IDE.
-Three DS18B20 sensors in total, two indisde the building and one outside. The temperature readings are displayed in Celsius and 
+Three DS18b20 sensors in total, two inside the building and one outside. The temperature readings are displayed in Celsius and 
 update every 5minutes.
-Temperature data is scraped from openweathermap.org using MATLAB code for reading numeric data (temperature) and saved to ThingSpeak. The openweathermap.org provides the weather data in josn format. From that I target the temp string in particular and use that along with the API url to pull data to ThingSpeak dashboard.
+Temperature data is also scraped from openweathermap.org using MATLAB code for reading numeric data (temperature) and saved to ThingSpeak. The openweathermap.org provides the weather data in josn format. From that I target the temp string in particular and use that along with the API url to pull data to ThingSpeak dashboard.
 ```
 JSON Snippet
 {
@@ -73,7 +73,7 @@ To install the ESP8266 board in your Arduino IDE, follow these next instructions
 ### Uploading a Sketch to the ESP-01
 The following table shows the connections you need to make between the ESP8266 and the USB to TTL programmer.
 
-![](https://github.com/Irhutchi/home-temperature-mapping/blob/main/imgs/Flash-Circuit-ESP9266-01.jpg)
+<img src="https://github.com/Irhutchi/home-temperature-mapping/blob/main/imgs/Flash-Circuit-ESP9266-01.jpg" width="400" height="375" />
 
 | ESP8266       | USB to UART     
 | :------------- | :----------: | 
@@ -95,8 +95,7 @@ Each one was modified to suits my needs for this project and accomplish tasks su
 * [ThingSpeak](https://thingspeak.com) - ThingSpeak provides instant visualizations of data posted by both by Dallas Temperature sensors and
 public webAPI data to ThingSpeak. With the ability to execute MATLAB® code in ThingSpeak you can perform online analysis and processing of the data as it comes in. 
 ThingSpeak is often used for prototyping and proof of concept IoT systems that require analytics.
-
-![High and Low Output](https://github.com/Irhutchi/home-temperature-mapping/blob/main/imgs/High%20%26%20Low%20Temperature%20past%2024hrs%20img.JPG)
+<img src="https://github.com/Irhutchi/home-temperature-mapping/blob/main/imgs/High%20%26%20Low%20Temperature%20past%2024hrs%20img.JPG" width="400" height="375" />
 
 * [Thingview App](https://play.google.com/store/apps/details?id=com.cinetica_tech.thingview.full&hl=en_US&gl=US) is available for Google Play and apple App store. It is easy to setup and enables to view realtime data and visualise your
 ThingSpeak Channels. 
