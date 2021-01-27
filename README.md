@@ -1,6 +1,6 @@
 # IoT-home-temperature-monitoring-project
-A repository created to store files associated with this IoT project <br>
-This form part of my submission for Computer Systems Assignment - WIT
+A repository created to store files associated with this IoT project.<br>
+This repository forms part of my submission for Computer Systems Assignment - WIT 2021.
 
 ## Description
 
